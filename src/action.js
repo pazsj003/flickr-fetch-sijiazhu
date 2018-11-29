@@ -16,7 +16,7 @@ export const TagSearch = (dispatch ,tag) => {
 
     console.log("tag is "  + tag);
     var endpoint =
-        'http://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=';
+        'https://api.flickr.com/services/feeds/photos_public.gne?format=json&tags=';
 
     // let tag= this.state.images.title;
     var search = endpoint + tag;
